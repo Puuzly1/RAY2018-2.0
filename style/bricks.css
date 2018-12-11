@@ -1,0 +1,60 @@
+
+section#game-section {
+    width: 500px;
+    height:380px;
+    background-color:black;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+     z-index: -10px;
+}
+
+div#gameBackground {
+background-color: #000000b3;
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+z-index: -10px;
+display: block;
+
+}
+
+canvas#gameCanvas {
+    width: 480px;
+    height:320px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0879/0542/products/PC6383_3ebd0a11-0a46-47d2-847e-c8e83e23397d_1024x1024.jpg?v=1520077983");
+    position: relative;
+    top:10px;
+    display: block;
+    margin: auto;
+    z-index: -10px;
+}
+
+div#gameButtonsSec {
+    width: 480px;
+    height:30px;
+    background-color: pink;
+    position: relative;
+    margin: auto;
+    top: 20px;
+     z-index: -10px;
+}
+
+button#startButton {
+    width: 100px;
+    height:30px;
+    background-color: ;
+    margin-right: 10px;
+     z-index: -10px;
+}
+
+button#reloadButton {
+    width: 100px;
+    height:30px;
+    background-image:url("https://cdn.shopify.com/s/files/1/0879/0542/products/PC6383_3ebd0a11-0a46-47d2-847e-c8e83e23397d_1024x1024.jpg?v=1520077983");
+    margin-left: 10px;
+     z-index: -10px;
+}
