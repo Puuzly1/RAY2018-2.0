@@ -262,8 +262,8 @@ z-index: 500px;
 
 #header .navbar {
   background: #e8daef  ;
-  border: 90;
-  margin-bottom: 50px;
+ padding: 20px;
+  margin-bottom: 150px;
 
 
 }
@@ -570,11 +570,24 @@ body-html5{
 }
 
 #home-slider .slide-text{
-  padding: 20px;
+  padding: 50px;
   position: center;
   top: 0px;
   left: 0;
   width: 0px;
+}
+.main-text{
+  text-align: left;
+  width: 450px
+
+}
+.main-text-index{
+  text-align: center;
+  width: 450px
+}
+.main-text-teoria{
+  text-align: center;
+  width: 450px
 }
 
 .html-docu{
@@ -696,6 +709,13 @@ body-html5{
   right: 50px;
   bottom: 25px;
   top:180px;
+}
+#home-slider .slider-chibi{
+  position: absolute;
+  right:50px;
+  bottom: 180px;
+  top:90px;
+ 
 }
 
 .animate-in .slider-hill {
